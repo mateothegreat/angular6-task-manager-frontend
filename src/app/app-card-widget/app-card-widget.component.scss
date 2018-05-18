@@ -1,0 +1,63 @@
+@import '~@angular/material/theming';
+
+:host {
+
+    .wrapper {
+
+        width: 300px;
+        text-align: left;
+        padding: 10px;
+        @include mat-elevation(1);
+
+        background-color: #fafafa;
+
+        .card-widget-icon {
+
+            mat-icon {
+
+                font-size: 40px;
+                color: #2083fe;
+
+            }
+
+        }
+
+        div {
+
+            padding: 5px;
+
+        }
+
+        .card-widget-title {
+
+            font-size: 20px;
+
+        }
+
+        .card-widget-description {
+
+            font-size: 15px;
+
+        }
+
+        .card-widget-button {
+
+            padding: 10px;
+
+            button {
+
+                background-color: #2083fe;
+
+                mat-icon {
+
+                    color: #fff;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

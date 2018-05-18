@@ -1,0 +1,45 @@
+@import '~@angular/material/theming';
+
+:host {
+
+    ul {
+
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;
+
+    }
+
+    li {
+
+        cursor: pointer;
+        padding: 10px;
+
+    }
+
+    li:hover {
+
+        background-color: #fff;
+    }
+
+    .active {
+
+        border-right: 3px solid #e91e63;
+
+        mat-icon {
+
+            color: #e91e63;
+
+        }
+
+    }
+
+    mat-icon {
+
+        color: #607d8b;
+        font-size: 28px;
+
+    }
+
+}
